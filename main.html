@@ -1,15 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>COVID-19 Vaccination Stats</title>
+  <style>
+    table {
+      width: 70%;
+      border-collapse: collapse;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    thead {
+      background-color: #2e86de;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+      background-color: #dff9fb;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      text-align: center;
+      padding: 12px;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+<table>
+  <caption>COVID-19 Vaccination Statistics (Sample)</caption>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Total Vaccinated</th>
+      <th>Fully Vaccinated</th>
+      <th>Booster Doses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>USA</td>
+      <td>250M</td>
+      <td>210M</td>
+      <td>90M</td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>1.1B</td>
+      <td>950M</td>
+      <td>300M</td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td>180M</td>
+      <td>160M</td>
+      <td>70M</td>
+    </tr>
+    <tr>
+      <td>Germany</td>
+      <td>90M</td>
+      <td>80M</td>
+      <td>45M</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
